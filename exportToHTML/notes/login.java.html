@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>login.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#191a1c">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+login.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">notes</span><span class="s2">;</span>
+
+<span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">Scanner</span><span class="s2">;</span>
+
+<span class="s0">public class </span><span class="s1">login </span><span class="s2">{</span>
+    <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String args</span><span class="s2">[]) {</span>
+
+        <span class="s1">String usuario </span><span class="s2">= </span><span class="s3">&quot;neider&quot;</span><span class="s2">;</span>
+        <span class="s1">String usarioUsuario </span><span class="s2">= </span><span class="s3">&quot;neider&quot;</span><span class="s2">;</span>
+        <span class="s0">boolean </span><span class="s1">valido </span><span class="s2">= </span><span class="s1">usuario</span><span class="s2">.</span><span class="s1">equals</span><span class="s2">(</span><span class="s1">usarioUsuario</span><span class="s2">);</span>
+        <span class="s1">String password </span><span class="s2">= </span><span class="s3">&quot;neiderc&quot;</span><span class="s2">;</span>
+        <span class="s1">String passwordUsuario </span><span class="s2">= </span><span class="s3">&quot;neiderc&quot;</span><span class="s2">;</span>
+        <span class="s0">boolean </span><span class="s1">validaPassword </span><span class="s2">= </span><span class="s1">password</span><span class="s2">.</span><span class="s1">equals</span><span class="s2">(</span><span class="s1">passwordUsuario</span><span class="s2">);</span>
+        <span class="s0">if </span><span class="s2">(</span><span class="s1">usuario</span><span class="s2">.</span><span class="s1">equals</span><span class="s2">(</span><span class="s1">usarioUsuario</span><span class="s2">) &amp;&amp; </span><span class="s1">password</span><span class="s2">.</span><span class="s1">equals</span><span class="s2">(</span><span class="s1">passwordUsuario</span><span class="s2">))</span>
+            <span class="s2">{</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot; inicio de sesion exitoso&quot;</span><span class="s2">);</span>
+
+            <span class="s2">}</span><span class="s0">else</span><span class="s2">{</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;inicio de sesion invalido&quot;</span><span class="s2">);</span>
+        <span class="s2">}</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>
